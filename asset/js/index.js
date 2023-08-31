@@ -1,11 +1,11 @@
-
+//funcion cambio de margen
 const clickableImage = document.getElementById("clickimage");
 if (clickableImage !== null) {
     clickableImage.addEventListener("click", function() {
         this.classList.toggle("clicked");
     });
 }
-
+//funcion de pasword
 document.addEventListener("DOMContentLoaded", function () {
     const select1 = document.getElementById('sel1');
     const select2 = document.getElementById('sel2');
@@ -30,6 +30,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
+
+//funcion de evaluar sticker
 document.getElementById("evaluar").addEventListener("click", calcularStickers);
 
 function calcularStickers() {
