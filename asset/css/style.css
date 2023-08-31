@@ -1,0 +1,99 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.password-container {
+  margin-top: 50px;
+}
+
+select {
+  font-size: 16px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.container{
+  display: flex;
+  background-color: bisque;
+  justify-content: center;
+}
+
+
+.sticker{
+  
+  margin: 20px;
+}
+
+.sticker img{
+  width: 300px; 
+  height: 300px; 
+}
+
+.rs{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+}
+
+
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.image img {
+  border: none;
+  cursor: pointer;
+  width: 20vh;
+}
+
+.image img.clicked {
+  border: 2px solid red;
+}
+
+.image h1{
+  color: rgb(10, 48, 48);
+
+}
+
+.stickers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.indexs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+ 
+
+}
+
+.indexs button{
+  padding: 5px;
+  
+}
